@@ -1,41 +1,47 @@
 import React from "react";
 import "../css/portfolio.css";
+import recommenderImg from "../images/portfolio/recommender.png";
+import sortingImg from "../images/portfolio/sorting.png";
+import reservationImg from "../images/portfolio/reservation.png";
+import loginImg from "../images/portfolio/login.png";
+import deepfakeImg from "../images/portfolio/deepfake.png";
+import deepracerImg from "../images/portfolio/deepracer.png";
 
 const projects = [
   {
     title: "The Golden Recommender (Movie)",
     subtitle: "Hybrid Filtering",
-    image: "/images/portfolio/recommender.png",
+    image: recommenderImg,
     link: "https://github.com/STrikeNone/CZ1016-Introduction-to-Data-Science/tree/main/DS1%20Mini%20Project%20-%20The%20Golden%20Recommender%20(Movie)",
   },
   {
     title: "Sorting Visualizer",
     subtitle: "React.Js",
-    image: "/images/portfolio/sorting.png",
+    image: sortingImg,
     link: "https://strikenone.github.io/SortingVisualizer/",
   },
   {
     title: "Restaurant Point of Reservation System",
     subtitle: "OOP in Java",
-    image: "/images/portfolio/reservation.png",
+    image: reservationImg,
     link: "https://github.com/STrikeNone/CZ2002-Object-Oriented-Design-Programming",
   },
   {
     title: "Login System",
     subtitle: "React.Js, Node.Js, MongoDB",
-    image: "/images/portfolio/login.png",
+    image: loginImg,
     link: "https://github.com/STrikeNone/Log-In-System-Fullstack-/tree/main/front",
   },
   {
     title: "Deepfake Detection in DSTA SeeTrue",
     subtitle: "CNN",
-    image: "/images/portfolio/deepfake.png",
+    image: deepfakeImg,
     link: "https://github.com/STrikeNone/Data-Science-Projects/tree/main/DeepFake%20Detection",
   },
   {
     title: "Deep Racer AWS",
     subtitle: "Reinforcement Learning",
-    image: "/images/portfolio/deepracer.png",
+    image: deepracerImg,
     link: "https://github.com/STrikeNone/Data-Science-Projects/tree/main/Deep%20Racer%20AWSm",
   },
 ];

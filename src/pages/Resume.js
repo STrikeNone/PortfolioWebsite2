@@ -4,8 +4,8 @@ import "../css/resume.css";
 function Resume() {
   const handleDoubleClick = () => {
     const link = document.createElement("a");
-    link.href = "/resume.pdf";
-    link.download = "YiHao_Resume.pdf"; // optional custom name
+    link.href = `${process.env.PUBLIC_URL}/resume.pdf`;
+    link.download = "YiHao_Resume.pdf";
     link.click();
   };
 
@@ -16,7 +16,7 @@ function Resume() {
       </h2>
 
       <iframe
-        src="/resume.pdf"
+        src={`${process.env.PUBLIC_URL}/resume.pdf`}
         width="100%"
         height="800px"
         title="Resume"
