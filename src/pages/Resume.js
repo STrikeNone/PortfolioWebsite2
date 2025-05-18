@@ -16,7 +16,7 @@ function Resume() {
       </h2>
 
       <iframe
-        src={`${process.env.PUBLIC_URL}/resume.pdf`}
+        src={`${process.env.PUBLIC_URL}/resume.pdf#toolbar=0`}
         width="100%"
         height="800px"
         title="Resume"

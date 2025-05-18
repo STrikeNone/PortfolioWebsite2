@@ -16,7 +16,7 @@ function About() {
         <div className="contact-info">
           <div className="info-item">
             <img src={emailIcon} alt="Email" />
-            <span>yihaololz@gmail.com</span>
+            <span>~ Leaving Empty</span>
           </div>
           <div className="info-item">
             <FaLinkedin className="contact-icon" />

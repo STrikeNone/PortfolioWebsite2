@@ -1,7 +1,7 @@
 # Yi Hao's Portfolio Website
 
 Welcome to my personal portfolio website built with **React.js**!  
-This site showcases my projects, education, work experience, and interests in Machine Learning and Data Science.
+This site showcases my projects, education, work experience, and interests in Machine Learning and Data Science. Rebuilt my original portfolio website with some aid from DeepSeek >\_<>
 
 🚀 **Live Site:**  
 👉 [https://strikenone.github.io/PortfolioWebsite2](https://strikenone.github.io/PortfolioWebsite2)
@@ -18,7 +18,7 @@ This site showcases my projects, education, work experience, and interests in Ma
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Design Stack
 
 - **Frontend**: React.js, React Router, React Icons
 - **Styling**: CSS (custom design system, fully responsive)
