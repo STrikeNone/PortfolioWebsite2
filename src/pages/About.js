@@ -16,7 +16,7 @@ function About() {
         <div className="contact-info">
           <div className="info-item">
             <img src={emailIcon} alt="Email" />
-            <span>~ Leaving Empty</span>
+            <span>~ Contact via LinkedIn</span>
           </div>
           <div className="info-item">
             <FaLinkedin className="contact-icon" />
