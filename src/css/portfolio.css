@@ -1,0 +1,59 @@
+.portfolio-container {
+  padding: 1rem 2rem 2rem 2rem; /* reduced top padding */
+  text-align: center;
+}
+
+.portfolio-container h2 {
+  font-size: 2rem;
+  color: #f8fafc;
+  margin-top: 0.5rem;     /* reduce top margin */
+  margin-bottom: 2rem;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.portfolio-card {
+  background-color: #ffffff;
+  text-align: left;
+  overflow: hidden;
+  text-decoration: none;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 0; /* no curves */
+  padding: 0;       /* remove any padding that might add space */
+}
+
+.portfolio-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.portfolio-card img {
+  width: 100%;
+  height: 180px;        /* Slightly smaller height */
+  object-fit: cover;
+  display: block;       /* Removes whitespace from inline img */
+  border-radius: 0;     /* Removes curves */
+  margin: 0;
+}
+
+
+.portfolio-card-text {
+  padding: 1rem;
+}
+
+
+.portfolio-card-text h3 {
+  font-size: 1.1rem;
+  color: #0f172a;
+  margin-bottom: 0.5rem;
+}
+
+.portfolio-card-text p {
+  color: #475569;
+  font-size: 0.95rem;
+}

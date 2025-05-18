@@ -1,0 +1,74 @@
+.home-container {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f0f0ff; /* soft lavender */
+  color: #2e1065; /* deep purple text */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #2e1065;
+  margin-bottom: 1rem;
+}
+
+.home-header p {
+  font-size: 1.15rem;
+  max-width: 850px;
+  margin: 0 auto 3rem;
+  line-height: 1.7;
+  color: #2e1065;
+}
+
+.home-sections {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.section-card {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  width: 260px;
+  box-shadow: 0 8px 14px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+.section-card:hover {
+  transform: translateY(-5px);
+}
+
+.section-icon {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;  /* Ensures image is resized proportionally */
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+
+.section-card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #1e1b4b; /* slightly darker purple for contrast */
+}
+
+.view-button {
+  display: inline-block;
+  background-color: #5f3dc4;
+  color: white;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  font-weight: 600;
+  box-shadow: 3px 4px 0 #cbd5fe;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.view-button:hover {
+  background-color: #6c2bd9;
+  box-shadow: 2px 3px 0 #a5b4fc;
+}

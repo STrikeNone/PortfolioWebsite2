@@ -1,0 +1,31 @@
+.resume-button {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: #5f3dc4;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+  background-color: #6c2bd9;
+}
+
+.resume-heading {
+  cursor: pointer;
+  transition: color 0.3s ease;
+  margin-top: 0;           /* ✅ Remove default top spacing */
+  margin-bottom: 1.5rem;   /* Optional spacing below the heading */
+}
+
+.resume-heading:hover {
+  color: #38bdf8;
+}
+
+.resume-container {
+  padding: 0.5rem 2rem 2rem 2rem; /* ✅ Reduce top padding from 2rem to 0.5rem */
+  text-align: center;
+}
