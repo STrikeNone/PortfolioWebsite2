@@ -21,7 +21,7 @@ function About() {
           <div className="info-item">
             <FaLinkedin className="contact-icon" />
             <a
-              href="https://www.linkedin.com/in/yi-hao-puah-7286b11b8/"
+              href="https://www.linkedin.com/in/yi-hao-puah//"
               target="_blank"
               rel="noopener noreferrer"
             >
