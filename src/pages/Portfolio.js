@@ -6,6 +6,7 @@ import reservationImg from "../images/portfolio/reservation.png";
 import loginImg from "../images/portfolio/login.png";
 import deepfakeImg from "../images/portfolio/deepfake.png";
 import deepracerImg from "../images/portfolio/deepracer.png";
+import fypImg from "../images/portfolio/fyp.png";
 
 const projects = [
   {
@@ -43,6 +44,14 @@ const projects = [
     subtitle: "Reinforcement Learning",
     image: deepracerImg,
     link: "https://github.com/STrikeNone/Data-Science-Projects/tree/main/Deep%20Racer%20AWSm",
+  },
+  {
+    title:
+      "BlockDoor: Blocking Backdoor Based Watermarks in Deep Neural Networks",
+    subtitle:
+      "Final Year Project adopted to a paper. Accepted as a Work In Progress Paper",
+    image: fypImg,
+    link: "https://link.springer.com/chapter/10.1007/978-3-031-80408-3_16",
   },
 ];
 
